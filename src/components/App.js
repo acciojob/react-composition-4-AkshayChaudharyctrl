@@ -5,7 +5,7 @@ import './../styles/App.css';
 
 const App = () => {
   const handleSubmit = (formValues) => {
-    console.log('Form values:', formValues);
+    console.log([formValues]);
   };
 
   const fields = [
@@ -16,8 +16,7 @@ const App = () => {
 
   return (
     <div>
-      {/* <h1>Form Example</h1> */}
-      <Form onSubmit={handleSubmit} fields={fields} />
+     <Form onSubmit={handleSubmit} fields={fields} />
     </div>
   );
 };
