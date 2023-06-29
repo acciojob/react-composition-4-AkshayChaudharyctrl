@@ -5,7 +5,7 @@ import './../styles/App.css';
 
 const App = () => {
   const handleSubmit = (formValues) => {
-    console.log([formValues]);
+    console.log(formValues);
   };
 
   const fields = [
